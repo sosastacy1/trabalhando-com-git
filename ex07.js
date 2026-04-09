@@ -1,11 +1,11 @@
-// const readline = require('readline-sync')
+const readline = require('readline-sync')
 
-// let nota = readline.questionFloat("Escreva a nota que você tirou: ")
+let nota = readline.questionFloat("Escreva a nota que você tirou: ")
 
-// console.log("======== RESULTADO =========")
+console.log("======== RESULTADO =========")
 
-// if(nota >= 7){
-//     console.log("Aprovado!")
-// }else{
-//     console.log("Reprovado")
-// }
+if(nota >= 7){
+    console.log("Aprovado")
+}else{
+    console.log("Reprovado")
+}
